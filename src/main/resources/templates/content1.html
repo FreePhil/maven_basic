@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns:th="http://www.thymeleaf.org"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+  layout:decorate="~{master}"
+>
+  <head>
+    <title>Content1</title>
+    <script src="content1"></script>
+  </head>
+  <body>
+    <div id="sec1" style="background-color:gray" layout:fragment="content">
+      <div id="sec2">
+        <p th:text="'Age: ' + ${user.age}">Age</p>
+        <p th:text="'State of birth: ' + ${user.birthState}">Age</p>
+      </div>
+    </div>
+    <footer>
+      <div id="content" layout:fragment="custom-footer">
+        Content 1 Specific Footer
+      </div>
+    </footer>
+  </body>
+</html>
