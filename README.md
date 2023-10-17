@@ -46,6 +46,79 @@
   - [20 Best VS Code Extensions For 2023](https://www.lambdatest.com/blog/best-vs-code-extensions/)
   - [Top 30 VS Code Extensions for Enhanced Programming](https://kinsta.com/blog/vscode-extensions/)
 
+### Query URL
+  - Web: http://localhost:8080/content1
+  - Web: http://localhost:8080/content1?name=HengeTech
+  - Rest API: http://localhost:8080/gi/fix-wired
+
+### Class Comparison
+<table>
+<tr>
+<th> Java </th>
+<th> C# </th>
+</tr>
+<tr>
+<td>
+
+```java
+package com.hengetech.simple_demo.model;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.io.Serializable;
+
+@Data
+@NoArgsConstructor
+public class User implements Serializable {
+    private String name;
+    private int age;
+    private String birthState;    
+}
+```
+
+</td>
+<td>
+
+```c#
+using System;
+using System.Text.Json.Serialization;
+
+namespace SimpleLog.Models
+{
+    public class User: Object
+    {
+        [JsonPropertyName("username")]
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public DateTime Birthday { get; set; }
+    }
+}
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+```agsl
+var user = new User();
+user.setName("Henge");
+var tempName = user.getName();
+```
+</td>
+<td>
+
+```agsl
+var user = new User();
+user.Name = "Henge";
+var tempName = user.Name;
+```
+</td>
+</tr>
+</table>
+
+
+
 ### Dependency: pom.xml 
 ```
 <properties>

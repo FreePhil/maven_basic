@@ -1,17 +1,14 @@
 package com.hengetech.simple_demo.model;
 
-import groovy.transform.ToString;
-import groovy.transform.builder.Builder;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter
-@Getter
-@Builder
+import java.io.Serializable;
+
+
+@Data
 @NoArgsConstructor
-@ToString
-public class User {
+public class User implements Serializable {
     private String name;
     private int age;
     private String birthState;    
