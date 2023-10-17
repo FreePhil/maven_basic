@@ -1,0 +1,6 @@
+
+spring:
+    datasource:
+        url: jdbc:sqlserver://192.168.2.230\sql2019;database=SubSystem;sslProtocol=TLS;Encrypt=false
+        username: sa
+        password: Ttnika175

@@ -15,6 +15,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.OrderBy;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
@@ -35,5 +36,5 @@ public class Gi {
     @Column(name = "CreatedDate")
     @Temporal(TemporalType.TIMESTAMP) private Date createdDate;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "gi") private List<GiDetail> items = new ArrayList<>();
+    @OneToMany(mappedBy = "gi") @JsonManagedReference @OrderBy("lineItem") private List<GiDetail> giDetail = new ArrayList<>();
 }

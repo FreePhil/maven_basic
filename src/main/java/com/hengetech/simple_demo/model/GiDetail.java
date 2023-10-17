@@ -31,6 +31,6 @@ public class GiDetail {
     @Column(name = "BilledQty") private double billedQuantity;
     @Column(name = "Billed", columnDefinition = "TinyInt") private boolean billed;
 
-    @ManyToOne @JsonIgnore
+    @ManyToOne @JsonBackReference
     @JoinColumn(name = "JobNo") private Gi gi;
 }
