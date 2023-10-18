@@ -123,6 +123,34 @@ var tempName = user.Name;
 - class/interface: 大寫開頭 Pascal Style, i.e., <span style="color:yellow">Car, ToyotaCar, ToyotaCRVCar</span>
 - variable: 小寫開頭 Camel Style, i.e., <span style="color:yellow">userName, location, createdDate</span>
 - method/function: 小寫開頭 Camel Style, i.e., <span style="color:yellow">getUserName, findLocation</span>
+- interface
+  ```
+  public interface Car {
+    String getMake();
+  }
+  ```
+- class
+  ```
+  public class ToyotaCar implements Car {
+    public String getMake() {
+      return "Toyota";
+    }
+  }  
+
+  or 
+
+  public class CarImpl implements Car {
+    ....
+    ....
+    ....
+  }
+
+  public class ToyotaCRVCar extends ToyotaCar {
+    @Override public String getMake() {
+      return "Toyota-CRV";
+    }
+  }
+  ```
 
 ### Dependency: pom.xml 
 ```
