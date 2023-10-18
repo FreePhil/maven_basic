@@ -117,7 +117,12 @@ var tempName = user.Name;
 </tr>
 </table>
 
+### Naming Conventions
 
+- namespace: 全部小寫或_, i.e., <span style="color:yellow">com.henge.maven_basic</span>
+- class/interface: 大寫開頭 Pascal Style, i.e., <span style="color:yellow">Car, ToyotaCar, ToyotaCRVCar</span>
+- variable: 小寫開頭 Camel Style, i.e., <span style="color:yellow">userName, location, createdDate</span>
+- method/function: 小寫開頭 Camel Style, i.e., <span style="color:yellow">getUserName, findLocation</span>
 
 ### Dependency: pom.xml 
 ```
