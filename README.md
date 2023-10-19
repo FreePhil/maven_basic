@@ -46,6 +46,16 @@
   - [20 Best VS Code Extensions For 2023](https://www.lambdatest.com/blog/best-vs-code-extensions/)
   - [Top 30 VS Code Extensions for Enhanced Programming](https://kinsta.com/blog/vscode-extensions/)
 
+### Spring Initializer
+
+https://start.spring.io/
+  
+<div align="center">
+  <kbd>
+    <img src="readme-images/spring-init.png" />
+  </kbd>
+</div>
+
 ### Query URL
   - Web: http://localhost:8080/content1
   - Web: http://localhost:8080/content1?name=HengeTech
