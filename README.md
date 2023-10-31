@@ -9,8 +9,19 @@
 
 ## 說明
 
-
 使用 VS Code 開發 Springboot MVC 專案
+
+### Java 練習
+
+1. 主程式: /src/main/java/com.hengetech.simple_demo/exercises, i.e., _01..._04
+2. 測試程式: /src/test/java/com.hengetech.simple_demo/exercises, i.e., _01..._04
+3. 分別完成主程式 exercises 內的程式, 程式的完成以測試程式是否通過測試為目的 
+4. 測試程式不用變動, 僅用來檢驗主程式的執行結果。程式完成後, 測試結果應該全部呈現綠色通過標誌。
+<div align="center">
+  <kbd>
+    <img src="readme-images/unittest.png" />
+  </kbd>
+</div>
 
 ### 軟體下載
 
