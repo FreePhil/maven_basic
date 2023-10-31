@@ -7,6 +7,8 @@ public class RecursiveFibonacci implements Fibonacci {
 
         // Implement here
         //
+        // compute(n) = compute(n-1) + compute(n-2)
+        //
 
         return 0;
     }

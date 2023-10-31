@@ -13,6 +13,14 @@
 
 ### Java 練習
 
+使用 Intellij Community 2023.2
+
+<div align="center">
+  <kbd>
+    <img src="readme-images/outline.png" />
+  </kbd>
+</div>
+
 1. 主程式: /src/main/java/com.hengetech.simple_demo/exercises, i.e., _01..._04
 2. 測試程式: /src/test/java/com.hengetech.simple_demo/exercises, i.e., _01..._04
 3. 分別完成主程式 exercises 內的程式, 程式的完成以測試程式是否通過測試為目的 
