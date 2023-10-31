@@ -24,11 +24,17 @@
 1. 主程式: /src/main/java/com.hengetech.simple_demo/exercises/ _01..._04
 2. 測試程式: /src/test/java/com.hengetech.simple_demo/exercises/ _01..._04
 3. 從測試程式可以看到輸入值及預期輸出值, 再把主程式完成以滿足測試的條件。
-3. 分別完成主程式 exercises 內的程式, 程式的完成以測試程式是否通過測試為目的 
+3. 分別完成主程式 exercises 內的程式, 程式的完成以測試程式是否通過測試為目的
 4. 測試程式不用變動, 僅用來檢驗主程式的執行結果。程式完成後, 測試結果應該全部呈現綠色通過標誌。
-<div align="center">
+1. 完整參考程式, https://github.com/FreePhil/maven_basic/tree/exercise_01_04
+<div>
   <kbd>
-    <img src="readme-images/unittest.png" />
+    <img src="readme-images/unittest.png" style="width:600px" />
+  </kbd>
+</div>
+<div>
+  <kbd>
+    <img src="readme-images/passall.png" style="width:600px" />
   </kbd>
 </div>
 
@@ -69,7 +75,7 @@
 ### Spring Initializer
 
 https://start.spring.io/
-  
+
 <div align="center">
   <kbd>
     <img src="readme-images/spring-init.png" />
@@ -77,9 +83,9 @@ https://start.spring.io/
 </div>
 
 ### Query URL
-  - Web: http://localhost:8080/content1
-  - Web: http://localhost:8080/content1?name=HengeTech
-  - Rest API: http://localhost:8080/gi/fix-wired
+- Web: http://localhost:8080/content1
+- Web: http://localhost:8080/content1?name=HengeTech
+- Rest API: http://localhost:8080/gi/fix-wired
 
 ### Class Comparison
 <table>
@@ -100,9 +106,9 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 public class User implements Serializable {
-    private String name;
-    private int age;
-    private String birthState;    
+  private String name;
+  private int age;
+  private String birthState;
 }
 ```
 
@@ -182,7 +188,7 @@ var tempName = user.Name;
   }
   ```
 
-### Dependency: pom.xml 
+### Dependency: pom.xml
 ```
 <properties>
     <java.version>17</java.version>
