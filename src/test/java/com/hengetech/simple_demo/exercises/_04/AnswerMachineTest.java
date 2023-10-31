@@ -18,7 +18,7 @@ public class AnswerMachineTest {
     public void testGetName(int weekday, String language, String expected) {
         // Arrange
         //
-        AnswerMachine machine = new AnswerMachine("en");
+        AnswerMachine machine = new AnswerMachine(language);
 
         // Act
         //
